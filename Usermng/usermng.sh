@@ -86,7 +86,7 @@ then
 	then
 		echo "Usermng ya está instalado en el sistema."
 	else
-	        mv usermng.sh usermng
+	        mv $0 usermng
         	sudo cp usermng /usr/local/bin
         	sudo chmod +x /usr/local/bin/usermng
 		echo "Usermng se ha instalado correctamente en el sistema."
